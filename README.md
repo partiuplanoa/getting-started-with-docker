@@ -10,7 +10,7 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 
 ---
 
-###💡What you will Learn
+### 💡What you will Learn
 - Python and How to create Monitoring Application in Python using Flask and psutil
 - How to run a Python App locally.
 - Learn Docker and How to containerize a Python application:
