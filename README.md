@@ -31,7 +31,7 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Docker Installed.
 
 ### app:
-![banner](templates/output.png)
+![banner](images/output.png)
 
 ### 1️⃣ Folder Structure (Recommended)
 ```markdown
@@ -62,7 +62,7 @@ python app.py
 Create a Dockerfile in the root directory of the project with the following contents.
 - A Dockerfile is a instruction list for Docker.
 
-![image](templates/image.webp)
+![image](images/image.webp)
   
 Example:
 ```python
