@@ -38,6 +38,7 @@ pip install -r requirements.txt
 ### ✅ Step 2: Create and Write a Dockerfile
 Create a Dockerfile in the root directory of the project with the following contents.
 - A Dockerfile is a instruction list for Docker.
+  
 Example:
 ```python
 # Use the official Python image as the base image
