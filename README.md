@@ -1,7 +1,7 @@
 # Getting started with docker 
 
 This repository will guide you step by step on what Docker is and how to containerize your Python project. By the end, you’ll have a fully working Dockerized Flask app.
-![banner](getting-started-with-docker/templates/banner.webp)
+![banner](images/banner.webp)
 
 
 ### What is Docker?
