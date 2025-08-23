@@ -1,6 +1,6 @@
 # Getting started with docker 
 
-In this resp you will learn about what is docker and how you can create a docker project
+In this resp you will learn about what is docker and how you can create a docker project.
 
 ### What is Docker?
 Docker is a tool that lets you package your entire project, system, and all its dependencies into a single “box” called an image. You can run this box anywhere—no more system errors or missing dependencies.
@@ -88,4 +88,5 @@ Run:
 docker run -p 5000:5000 my-app
 ```
 - This starts your app in an isolated environment. Open your browser to localhost:5000—your app is running!
+- Now your app is running at <a>localhost:5000</a>.
 
