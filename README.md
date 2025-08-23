@@ -23,11 +23,15 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Running Docker Container
 - Docker Commands
 
+
 ### 👆🏻Prerequisites !
 
 - Code editor (Vscode)
 - Python3 Installed.
 - Docker Installed.
+
+### app:
+![banner](templates/output.png)
 
 ### 1️⃣ Folder Structure (Recommended)
 ```markdown
@@ -57,6 +61,8 @@ python app.py
 ### ✅ Step 2: Create and Write a Dockerfile
 Create a Dockerfile in the root directory of the project with the following contents.
 - A Dockerfile is a instruction list for Docker.
+
+![image](templates/image.webp)
   
 Example:
 ```python
