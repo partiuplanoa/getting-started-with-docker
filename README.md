@@ -25,6 +25,17 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Python3 Installed.
 - Docker Installed.
 
+### 1️⃣ Folder Structure (Recommended)
+```markdown
+docker-monitoring-app/
+│
+├── app.py
+├── requirements.txt
+├── Dockerfile
+└── templates/
+    └── index.html
+```
+
 ## ✨Let’s Start the Project ✨
 
 
@@ -65,3 +76,16 @@ CMD ["flask", "run"]
 ```
 
 ### ✅ Step 3: Build the Docker image
+Run:
+```bash
+docker build -t my-app .
+```
+- This turns your code, dependencies, and setup into a portable image.
+
+### ✅ Step 4: Run the container locally
+Run:
+```bash
+docker run -p 5000:5000 my-app
+```
+- This starts your app in an isolated environment. Open your browser to localhost:5000—your app is running!
+
