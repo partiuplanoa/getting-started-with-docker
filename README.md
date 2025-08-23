@@ -18,3 +18,16 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Building DockerImage
 - Running Docker Container
 - Docker Commands
+
+### Prerequisites !
+
+- Code editor (Vscode)
+- Python3 Installed.
+- Docker Installed.
+
+## ✨Let’s Start the Project ✨
+---
+
+### ✅ Step 1: Create a Flask app
+Write your Python Flask app (for example, an app that shows CPU/RAM data in the browser). copy the code below and run this command to install all `requirements`
+
