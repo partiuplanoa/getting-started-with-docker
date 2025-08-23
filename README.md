@@ -31,7 +31,7 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 ### ✅ Step 1: Create a Flask app
 Write your Python Flask app (for example, an app that shows CPU/RAM data in the browser). copy the code below and run this command to install all `requirements`
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
