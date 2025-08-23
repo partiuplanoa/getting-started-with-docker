@@ -26,12 +26,40 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Docker Installed.
 
 ## ✨Let’s Start the Project ✨
----
+
 
 ### ✅ Step 1: Create a Flask app
-Write your Python Flask app (for example, an app that shows CPU/RAM data in the browser). copy the code below and run this command to install all `requirements`
+Write your Python Flask app (for example, an app that shows CPU/RAM data in the browser). download the zip file and extract it open in vs code and hit the below commands and run this command to install all `requirements` after install all the requirements run the app by writing `app.py`. The app is now running at port `http://127.0.0.1:5000/`. 🚀 
 
 ```bash
 pip install -r requirements.txt
+```
+
+### ✅ Step 2: Create and Write a Dockerfile
+Create a Dockerfile in the root directory of the project with the following contents.
+- A Dockerfile is a instruction list for Docker.
+Example:
+```python
+# Use the official Python image as the base image
+FROM python:3.9-slim-buster
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the requirements file to the working directory
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the application code to the working directory
+COPY . .
+
+# Set the environment variables for the Flask app
+ENV FLASK_RUN_HOST=0.0.0.0
+
+# Expose the port on which the Flask app will run
+EXPOSE 5000
+
+# Start the Flask app when the container is run
+CMD ["flask", "run"]
 ```
 
