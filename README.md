@@ -1,6 +1,8 @@
 # Getting started with docker 
 
 This repository will guide you step by step on what Docker is and how to containerize your Python project. By the end, you’ll have a fully working Dockerized Flask app.
+![banner](templates/banner.webp)
+
 
 ### What is Docker?
 Docker is a tool that lets you package your entire application, including all dependencies, libraries, and system tools, into a single “container” called an image. This container can run anywhere, eliminating the classic “it works on my machine” problem.
