@@ -22,7 +22,7 @@ Imagine you have a Flask app. To run it on another computer, you’d have to ins
 - Creating Dockerfile
 - Building DockerImage
 - Running Docker Container
-- Docker Commands
+- Docker Commands 
 
 
 ### 👆🏻Prerequisites !
